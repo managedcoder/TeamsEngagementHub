@@ -1,0 +1,14 @@
+﻿{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "agentHubStorageConnectionString": "",
+    "acsConnectionString": "",
+    "botBaseAddress": "http://localhost:7150/",
+    "useACSManagedIdentity": "false"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}

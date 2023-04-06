@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "EngagementHub": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7150",
+      "launchBrowser": false
+    }
+  }
+}

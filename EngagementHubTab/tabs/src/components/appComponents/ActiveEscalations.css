@@ -1,0 +1,58 @@
+.narrow {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.page-padding {
+  padding: 4rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.welcome.page > .narrow  {
+  background-color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0px;
+  max-width: 500px;
+  min-height: 600px;
+  max-height: 600px;
+}
+
+
+.name { grid-area: name; }
+.type { grid-area: type; }
+.why { grid-area: why; }
+.icon { grid-area: icon; }
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  grid-template-areas:
+    'name icon'
+    'type icon'
+    'why icon';
+}
+
+.grid-container > div {
+  margin: 0;
+  padding: 0;
+}
+
+a:visited {background-color: Whitesmoke}
+

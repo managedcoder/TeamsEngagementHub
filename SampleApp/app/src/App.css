@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+    /** background image */
+    background-image: url("../public/MockHomePage.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }

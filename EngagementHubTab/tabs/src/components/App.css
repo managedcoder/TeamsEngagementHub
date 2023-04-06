@@ -1,0 +1,28 @@
+.ui-chat {
+    height: 100% !important;
+    width: auto !important;
+    justify-content: flex-end !important;
+    flex-direction: column !important;
+    background-color: initial !important;
+    display: flex !important;
+  }
+  .ui-chat__message {
+    display: inline-block !important;
+  }
+  .ui-chat {
+    justify-content: flex-end !important;
+    -webkit-box-pack: end !important;
+    align-items: unset !important;
+    -webkit-box-align: unset !important
+  }
+  .ui-flex {
+    justify-content: flex-end !important;
+    -webkit-box-pack: end !important;
+  }
+  .ui-flex .ei {
+    background-color: rgb(199, 224, 244) !important;
+  }
+
+  .ui-box + .ui-box > .ms-Persona { 
+    min-width: 400px !important;
+  }
